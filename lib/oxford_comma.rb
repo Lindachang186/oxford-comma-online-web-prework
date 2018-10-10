@@ -9,6 +9,6 @@ elsif array.size == 3
 else array.size > 3
   last_index = array.size
   array[last_index - 1] = "and #{array{last_index - 1}"
-  return array.join(", ")
+   array.join(", ")
 end
 end
