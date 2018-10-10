@@ -7,8 +7,8 @@ elsif array.size == 3
   array[2] = "and starfruit"
     array.join(", ")
 elsif array.size > 3
-  i = array.size
-  array[i - 1] = array.join("and ")
+  last_index = array.size
+  array[last_index - 1] = "and dragon fruits"
   array.join(" , ")
 end
 end
