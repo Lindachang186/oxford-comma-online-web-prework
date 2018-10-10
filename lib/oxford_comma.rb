@@ -5,10 +5,10 @@ elsif array.size == 2
   return array.join(" and ")
 elsif array.size == 3
   array[2] = "and starfruit"
-    array.join(", ")
+  return array.join(", ")
 elsif array.size > 3
   last_index = array.size
-  array[last_index - 1] = "and" + array[last_index]
-  array.join(", ")
+  array[last_index - 1] = "and " + array[last_index]
+  return array.join(", ")
 end
 end
