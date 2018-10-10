@@ -7,6 +7,7 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  Array.new = array.push
-  return Array  
+  new = [  ]
+  new.push(array)
+  return Array
 end
