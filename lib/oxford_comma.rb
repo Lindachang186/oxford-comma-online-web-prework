@@ -8,7 +8,7 @@ elsif array.size == 3
     array.join(", ")
 elsif array.size > 3
   last_index = array.size
-  array[last_index - 1] = "and pomelos"
+  array[last_index - 1] = "and" + array[last_index]
   array.join(", ")
 end
 end
